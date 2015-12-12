@@ -1,0 +1,34 @@
+{
+  "name": "lib-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for a library with es6",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir dist",
+    "test": "mocha --compilers js:babel-register tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericwooley/js-key.git"
+  },
+  "keywords": [
+    "POJO",
+    "object",
+    "JSON"
+  ],
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  },
+  "author": "Eric Wooley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericwooley/js-key/issues"
+  },
+  "homepage": "https://github.com/ericwooley/js-key#readme",
+  "devDependencies": {
+    "chai": "^3.4.1"
+  }
+}
