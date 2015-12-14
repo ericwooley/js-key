@@ -1,7 +1,7 @@
 {
-  "name": "lib-boilerplate",
+  "name": "js-key",
   "version": "0.0.1",
-  "description": "Boilerplate for a library with es6",
+  "description": "Javascript key set and get for nested objects",
   "main": "index.js",
   "scripts": {
     "prepublish": "babel src --out-dir dist",
